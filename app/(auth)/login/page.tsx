@@ -15,6 +15,7 @@ import { loginUrl } from '@/api/Api_Info'
 import image_1 from '@/public/1.jpg'
 import image_2 from '@/public/2.jpg'
 import image_3 from '@/public/3.jpg'
+import image_4 from '@/public/4.jpg'
 
 type FormData = {
   email: string,
@@ -79,7 +80,7 @@ export default function Login() {
     openNotificationWithIcon("error","Error, something went wrong")
   }
 
-  const images = [image_1,image_2,image_3]
+  const images = [image_1,image_2,image_3,image_4]
   const random = Math.floor(Math.random() * images.length)
   const randomImage = images[random]
 
@@ -125,14 +126,14 @@ export default function Login() {
                 <input type="checkbox" id="remeber_me" {...register("remember_me")} className="accent-C1 w-4 h-4 select-none cursor-pointer" />  
                 Remember me
               </label>
-              <h1 className="text-gray-400 select-none cursor-pointer">Forgot Password?</h1>
+              <Link href="/login/email_reset" className="text-gray-400 select-none cursor-pointer">Forgot Password?</Link>
             </div>
             <button disabled={!isDirty||isSubmitting} className="mt-2 mb-10 bg-C1 text-white py-[0.5rem] w-[40%]">Login</button>
             </form> 
           <p className="text-gray-400">Don&apos;t have an account? <Link href="/signup" className="text-C1">Registe here</Link></p>
       </div>
       <div className="xs:hidden md:grid md:col-span-6 lg:col-span-7 bg-gray-400 relative">
-        <Image src={randomImage} alt="food_image" fill={true} layout="fill" object-fit="cover"/>
+        <Image src={randomImage} alt="food_image" fill={true} object-fit="cover"/>
       </div>
     </div>
   </main>

@@ -15,6 +15,7 @@ import { signupUrl } from '@/api/Api_Info'
 import image_1 from '@/public/1.jpg'
 import image_2 from '@/public/2.jpg'
 import image_3 from '@/public/3.jpg'
+import image_4 from '@/public/4.jpg'
 
 type FormData = {
   username: string,
@@ -74,7 +75,7 @@ export default function Signup() {
     openNotificationWithIcon("error","Error, something went wrong")
   }
 
-  const images = [image_1,image_2,image_3]
+  const images = [image_1,image_2,image_3,image_4]
   const random = Math.floor(Math.random() * images.length)
   const randomImage = images[random]
   
@@ -111,7 +112,7 @@ export default function Signup() {
               <label htmlFor="password" className="relative text-gray-400" >
                 Password
                 <div className="realtive">
-                  <input type={secure == false ? "text" : "password"} id="password" className="p-2 pr-14 mb-3 border border-gray-300 text-black w-full"
+                  <input type={secure == false ? "text" : "password"} id="password" className="p-2 pr-14 border border-gray-300 text-black w-full"
                   {...register("password")}
                   />
                   {

@@ -1,0 +1,15 @@
+.swiper-button-prev::after{
+  color: #F48503;
+  font-weight: bold;
+  margin-right: 1rem;
+}
+
+.swiper-button-next::after{
+  color: #F48503;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.no-scrollbar::-webkit-scrollbar{
+  display: none;
+}

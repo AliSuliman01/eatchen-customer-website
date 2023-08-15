@@ -1,0 +1,39 @@
+{
+  "email_reset": {
+    "brand_name": "Eatchen",
+    "forgot_statement": "Forgot Password?",
+    "enter_email_statement": "Enter your Email Address to receive a reset link",
+    "send_link": "Send",
+    "back_to_sign_in": "Back to sign in",
+    "placeholder": "Please enter valid Email..."
+  },
+  "change_password": {
+    "brand_name": "Eatchen",
+    "reset_statement": "Reset your password",
+    "reset_button": "Reset Password",
+    "password_label": "Password",
+    "confirm_password_label": "Confirm Password"
+  },
+  "sign_in": {
+    "brand_name": "Eatchen",
+    "welcome_statement": "You are very welcome",
+    "sign_in_statement": "Sign in with your Email address and Password",
+    "email_label": "Email",
+    "password_label": "Password",
+    "remember_me_label": "Remember me",
+    "forgot_password_link":"Forgot Password",
+    "login_button":"Login", 
+    "have_account_statement":"Don,t have an account?",
+    "register_link":"Register here"
+  },
+  "sign_up": {
+    "brand_name": "Eatchen",
+    "username_label": "Username",
+    "email_label": "Email",
+    "password_label": "Password",
+    "confirm_password_label": "Confirm Password",
+    "sign_up_button":"Sign Up",
+    "have_account_statement":"Already have an account?",
+    "login_link":"Login here"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "email_reset": {
+    "brand_name": "Eatchen",
+    "forgot_statement": "نسيت كلمة المرور؟",
+    "enter_email_statement": "أدخل عنوان بريدك الالكتروني لتستلم رابط إعادة التعيين",
+    "send_link": "إرسال",
+    "back_to_sign_in": "العودة إلى تسجيل الدخول",
+    "placeholder": "الرجاء إدخال عنوان بريد إلكتروني صالح"
+  },
+  "change_password": {
+    "brand_name": "Eatchen",
+    "reset_statement": "إعادة تعيين كلمة المرور",
+    "reset_button": "تغيير كلمة المرور",
+    "password_label": "كلمة السر",
+    "confirm_password_label": "كلمة السر الجديدة"
+  },
+  "sign_in": {
+    "brand_name": "Eatchen",
+    "welcome_statement": "مرحب بك جداً في عالمنا",
+    "sign_in_statement": "قم بتسجيل الدخول عن طريق عنوان البريد الالكتروني و كلمة السر",
+    "email_label": "البريد الالكتروني",
+    "password_label": "كلمة السر",
+    "remember_me_label": "ذكّرني",
+    "forgot_password_link":"نسيت كلمة السر؟",
+    "login_button":"تسجيل الدخول", 
+    "have_account_statement":"لا تملك حساباً؟",
+    "register_link":"سجّل من هنا"
+  },
+  "sign_up": {
+    "brand_name": "Eatchen",
+    "username_label": "اسم المستخدم",
+    "email_label": "البريد الالكتروني",
+    "password_label": "كلمة السر",
+    "confirm_password_label": "تأكيد كلمة السر",
+    "sign_up_button":"التسجيل",
+    "have_account_statement":"تمتلك حساب حالياً؟",
+    "login_link":"قم بتسجيل الدخول من هنا"
+  }
+}

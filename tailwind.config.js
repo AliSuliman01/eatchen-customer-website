@@ -23,7 +23,10 @@ module.exports = {
         C4:'#545454',
         C5:'#8B8BA5',
         C6:'#FDFAE5',
-        C7:'#A2A2A2'
+        C7:'#A2A2A2',
+        C8:'#E7ECFF',
+        C9:'#FFE5E5',
+        C10:'#EDFFE2',
       }
     },
   },

@@ -85,7 +85,7 @@ export default function Login({params}:{params:Params}) {
   }
 
   if (isSubmitSuccessful == true && done == true){
-    redirect("/")
+    redirect("/builder")
   }
   else if(isSubmitSuccessful == true && done == false){
     openNotificationWithIcon("error","Error, something went wrong")

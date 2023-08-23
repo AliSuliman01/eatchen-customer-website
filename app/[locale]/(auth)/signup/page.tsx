@@ -30,7 +30,6 @@ type Params = {
   locale: string
 }
 
-
 type NotificationType = 'success' | 'info' | 'warning' | 'error'
 
 export default function Signup({params}:{params:Params}) { 
@@ -141,7 +140,7 @@ export default function Signup({params}:{params:Params}) {
               </label>
 
               <label htmlFor="confirm_password" className="relative text-gray-400">
-                {t('password_label')}
+                {t('confirm_password_label')}
                 <div className="realtive">
                   <input type={secure == false ? "text" : "password"} id="confirm_password" className="p-2 pr-14 mb-3 border border-gray-300 text-black w-full"
                   {...register("confirmPassword")}
